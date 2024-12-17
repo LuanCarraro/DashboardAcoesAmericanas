@@ -22,7 +22,7 @@ if symbol:
 
     # Busca informações sobre a ação
     if util.checkSimbolo(symbol):
-        st.write("## Stock Information")
+        st.write("## Informações da Ação")
         info = yf_client.get_info_acao()
         
         # Determina layout das colunas
