@@ -1,6 +1,6 @@
 
-from APIs.alphaVantageAPI import alphaVantageClient
-from APIs.yfinanceAPI import yfinanceClient
+from alphaVantageAPI import alphaVantageClient
+from yfinanceAPI import yfinanceClient
 
 
 class calculadoraClient:

@@ -2,7 +2,7 @@
 import streamlit as st
 import util 
 from calculoMetricas import calculadoraClient
-from APIs.yfinanceAPI import yfinanceClient
+from yfinanceAPI import yfinanceClient
 
 
 st.set_page_config(page_title="Dashboard Financeiro", layout="wide")
