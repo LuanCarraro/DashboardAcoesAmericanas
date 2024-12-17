@@ -27,6 +27,13 @@ Este projeto foi desenvolvido em **Python**, aproveitando suas poderosas bibliot
 - **Gráficos e visualizações**: Visualize o desempenho histórico das ações em gráficos interativos, com possibilidade de analisar dados de diferentes períodos.
 - **Atualizações em tempo real**: A aplicação busca dados financeiros atualizados para garantir que as informações exibidas estejam sempre corretas.
 
+## Acesso Streamlit
+
+Este é um projeto exemplo hospedado no Streamlit Cloud.
+
+Você pode acessar o app ao vivo aqui: [Acessar App Streamlit](https://dashboardacoesamericanas-dkameghbhbhne3upfdaist.streamlit.app)
+
+
 ## Como Rodar o Projeto Localmente
 
 1. **Clone o Repositório**:
