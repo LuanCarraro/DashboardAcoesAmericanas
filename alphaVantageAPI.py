@@ -3,6 +3,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
+import streamlit as st
 
 
 class alphaVantageClient:
@@ -15,7 +16,14 @@ class alphaVantageClient:
         self.set_info_acao(simbolo)
         self.set_income_statement(simbolo)
 
-
+    def get_api_key():
+        if "api_keys" in st.secrets and "API_KEY" in st.secrets["api_keys"]:
+            return st.secrets["api_keys"]["API_KEY"]
+        elif os.getenv("API_KEY"):
+             return os.getenv("API_KEY")
+        else:
+            return None
+        
     def get_info(self):
         return self.info
     
